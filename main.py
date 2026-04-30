@@ -20,7 +20,7 @@ LOGIN_URL = f"{BASE_URL}/auth/login"
 OUTPUT_DIR = Path("output/falix")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 MAX_RETRY = 3
-AD_RETRY_LIMIT = 10  # Start 重试次数
+AD_RETRY_LIMIT = 20  # Start 重试次数
 CN_TZ = timezone(timedelta(hours=8))
 
 screenshot_counter = {"count": 0}
